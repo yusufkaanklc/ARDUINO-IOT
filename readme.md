@@ -59,9 +59,8 @@ Bu proje, ESP8266 tabanlı bir NodeMCU kartı kullanarak çift kanallı bir ayd�
 | :-------- | :------- | :-------------------------------- |
 | `body`      | `object` | **Gerekli**. Kanalların durumunu taşıyan istek verisi |
 
-## Örnek Kullanım Senaryoları
+## Örnek Kullanım Senaryosu
 
-1. Düğmeye basıldığında:
    - NodeMCU cihazı WiFi erişim noktası moduna geçer.
    - Kullanıcı ağa bağlanır.
    - Lokal'de ise (http://localhost:5000/) portundan, değil ise http://test.ykaan.com.tr adresinden kanal kontrolleri yapılır, ışıkların durumu güncellenir.
